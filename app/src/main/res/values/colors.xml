@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Primary Colors-->
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorPrimaryText">#024bee</color>
+  <color name="colorPrimaryAccent">#FF4081</color>
+
+  <!--Button Colors-->
+  <color name="colorButtonUnPressed">#00000000</color>
+  <color name="colorButtonPressed">#fcfcc4</color>
+  <color name="colorButtonStroke">#8a8984</color>
+
+  <!--EditText Colors-->
+  <color name="colorEditTextUnPressed">#F8F8F8</color>
+  <color name="colorEditTextPressed">#EBEBEB</color>
+  <color name="colorEditTextStroke">#484343</color>
+
+  <!--ListView Colors-->
+  <color name="colorListViewBackground">#e3e3e3</color>
+  <color name="colorListViewBackgroundStroke">#1d164a</color>
+  <color name="colorListViewItemUnPressed">#fffff7</color>
+  <color name="colorListViewItemPressed">#fcfce1</color>
+
+  <!--ActionBar Colors-->
+  <color name="colorActionBar">#FF4081</color>
+  <color name="colorActionBarShadow">#42000000</color>
+  <color name="colorActionBarTitleText">#d6dded</color>
+
+  <!--Other Colors-->
+  <color name="colorTextShadow">#7F000000</color>
+  <color name="colorInvisible">#00000000</color>
+  <color name="colorDarken">#4D000000</color>
+  <color name="colorLighten">#4DFFFFFF</color>
+  <color name="colorBlack">#FF000000</color>
+  <color name="colorWhite">#FFFFFFFF</color>
+  <color name="colorGold">#FFEFCF1B</color>
+  <color name="colorRed">#c60216</color>
+</resources>

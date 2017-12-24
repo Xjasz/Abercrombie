@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/rlMainItem"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:paddingBottom="16dp"
+  android:background="@drawable/list_item">
+
+  <ImageView
+    android:id="@+id/ivBackgroundImage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:scaleType="centerInside"
+    android:visibility="gone"
+    android:paddingBottom="16dp"/>
+
+  <TextView
+    android:id="@+id/tvTopDescription"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ivBackgroundImage"
+    android:layout_centerHorizontal="true"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:visibility="gone"
+    android:paddingBottom="4dp"
+    android:textAllCaps="true"
+    android:textColor="#787572"
+    android:textSize="13sp" />
+
+
+  <TextView
+    android:id="@+id/tvItemTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tvTopDescription"
+    android:layout_centerHorizontal="true"
+    android:paddingBottom="4dp"
+    android:paddingLeft="20dp"
+    android:visibility="gone"
+    android:paddingRight="20dp"
+    android:textAllCaps="true"
+    android:textColor="#33352c"
+    android:textSize="17sp"
+    android:textStyle="bold" />
+
+  <TextView
+    android:id="@+id/tvPromoMessage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tvItemTitle"
+    android:layout_centerHorizontal="true"
+    android:paddingBottom="16dp"
+    android:paddingLeft="20dp"
+    android:visibility="gone"
+    android:paddingRight="20dp"
+    android:textAllCaps="true"
+    android:textColor="#787572"
+    android:textSize="11sp" />
+
+  <TextView
+    android:id="@+id/tvBottomDescription"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tvPromoMessage"
+    android:layout_centerHorizontal="true"
+    android:paddingBottom="8dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:visibility="gone"
+    android:textColor="#c5bdbe"
+    android:textSize="13sp" />
+
+  <TextView
+    android:id="@+id/tvContent1"
+    android:layout_width="240dp"
+    android:layout_height="40dp"
+    android:layout_below="@+id/tvBottomDescription"
+    android:layout_centerHorizontal="true"
+    android:visibility="gone"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/button_main"
+    android:gravity="center"
+    android:textColor="#666561"
+    android:textSize="15sp" />
+
+  <TextView
+    android:id="@+id/tvContent2"
+    android:layout_width="240dp"
+    android:layout_height="40dp"
+    android:visibility="gone"
+    android:layout_below="@+id/tvContent1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/button_main"
+    android:gravity="center"
+    android:textColor="#666561"
+    android:textSize="15sp" />
+
+
+</RelativeLayout>

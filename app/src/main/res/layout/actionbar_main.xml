@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/rlActionBarRoot"
+  android:layout_width="match_parent"
+  android:layout_height="@dimen/actionBarHeight">
+
+  <ImageView
+    android:id="@+id/ivMenu"
+    android:layout_width="@dimen/actionBarHeight"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:background="@drawable/button_darken"
+    android:padding="4dp"
+    android:scaleType="fitCenter"
+    android:src="@drawable/menu" />
+
+
+  <TextView
+    android:id="@+id/tvTitle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="80dp"
+    android:layout_marginRight="80dp"
+    android:gravity="center"
+    android:maxLines="1"
+    android:text="@string/app_name"
+    android:textColor="@color/colorActionBarTitleText"
+    android:textSize="@dimen/actionBarTitleTextSize"
+    android:textStyle="bold" />
+
+  <ImageView
+    android:id="@+id/ivRefresh"
+    android:layout_width="@dimen/actionBarHeight"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:adjustViewBounds="true"
+    android:background="@drawable/button_darken"
+    android:padding="8dp"
+    android:scaleType="fitCenter"
+    android:src="@drawable/refresh" />
+
+</RelativeLayout>

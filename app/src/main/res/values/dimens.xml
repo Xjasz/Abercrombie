@@ -1,0 +1,16 @@
+<resources>
+
+  <dimen name="buttonStroke">2dp</dimen>
+  <dimen name="buttonRadius">0dp</dimen>
+  <dimen name="editTextStroke">2dp</dimen>
+  <dimen name="editTextRadius">12dp</dimen>
+  <dimen name="circleRadius">1000dp</dimen>
+  <dimen name="listViewBackgroundRadius">20dp</dimen>
+  <dimen name="listViewBackgroundStroke">2dp</dimen>
+  <dimen name="actionBarHeight">40dp</dimen>
+  <dimen name="actionBarTitleTextSize">20sp</dimen>
+
+  <dimen name="listViewNoResultsTextSize">20sp</dimen>
+  <string name="listViewNoResultsText">"? was not found.  That’s all we know."</string>
+
+</resources>

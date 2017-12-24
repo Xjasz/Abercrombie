@@ -1,0 +1,22 @@
+<resources>
+  
+  <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+    <item name="android:windowBackground">@android:color/black</item>
+    <item name="colorAccent">@color/colorPrimaryAccent</item>
+  </style>
+
+  <style name="DialogNoBorder">
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+  </style>
+
+  <style name="AppCustomTheme" parent="@android:style/Theme.Panel">
+    <item name="android:windowAnimationStyle">@style/AppAnimation.Window</item>
+  </style>
+
+  <style name="AppAnimation.Window" parent="@android:style/Animation.Activity">
+    <item name="android:windowEnterAnimation">@anim/anim_in</item>
+    <item name="android:windowExitAnimation">@anim/anim_out</item>
+  </style>
+
+</resources>
